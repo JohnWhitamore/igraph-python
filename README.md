@@ -10,8 +10,7 @@ Uses synthetic retail sales data as a running example.
 - 63 days (9 weeks)
 
 ### packages used
-`pathlib`: for managing load and write paths.  
-`Numpy`: to load and re-shape .npz data.  
+ 
 `igraph`: create graphs, manage state and also to create plots.  
 `matplotlib.pyplot`: used in this repo to render `igraph` plots.
 
@@ -25,3 +24,6 @@ synthetic_data.csv.gz. Compressed csv file containing the same data as the .npz 
 
 ### src/
 
+`graphlayout.py`: the entry point of the code.  
+`graph.py`: uses `igraph` to create a graph.  
+`visualisation.py`: plots the graph structure.  
