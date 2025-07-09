@@ -18,10 +18,10 @@ Uses synthetic retail sales data as a running example.
 ### data/
 synthetic_data.npz. Compressed Numpy file containing three arrays:
 
-dates: (63, ) array of integers (not dates).
-synth_sales_data: (12, 3970, 63) array of integer sales quantities.
-fitted_line: (12, 3970, 63) array of doubles fitted through the sales quantities.
-synthetic_data.csv.gz. Compressed csv file containing the same data as the .npz file but in long format.
+dates: (63, ) array of integers (not dates).  
+synth_sales_data: (12, 3970, 63) array of integer sales quantities.  
+fitted_line: (12, 3970, 63) array of doubles fitted through the sales quantities.  
+synthetic_data.csv.gz. Compressed csv file containing the same data as the .npz file but in long format.  
 
 ### src/
 
