@@ -1,2 +1,27 @@
 # igraph-python
-igraph package for creating graphs (nodes and edges)
+Clean examples of `igraph` code for building graphs with nodes and edges.  
+
+`igraph` is a package written in C that allows the creation of graphs. It works by handling state, rather than by passing messages (like Akka or Orleans). `igraph` was used to generate the synthetic retail data used as a running example through various of my repos.
+
+Uses synthetic retail sales data as a running example.
+
+- 12 stores  
+- 3970 products  
+- 63 days (9 weeks)
+
+### packages used
+`pathlib`: for managing load and write paths.  
+`Numpy`: to load and re-shape .npz data.  
+`igraph`: create graphs, manage state and also to create plots.  
+`matplotlib.pyplot`: used in this repo to render `igraph` plots.
+
+### data/
+synthetic_data.npz. Compressed Numpy file containing three arrays:
+
+dates: (63, ) array of integers (not dates).
+synth_sales_data: (12, 3970, 63) array of integer sales quantities.
+fitted_line: (12, 3970, 63) array of doubles fitted through the sales quantities.
+synthetic_data.csv.gz. Compressed csv file containing the same data as the .npz file but in long format.
+
+### src/
+
