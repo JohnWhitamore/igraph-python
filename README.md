@@ -13,12 +13,13 @@ Clean examples of `igraph` code for building graphs with nodes and edges.
 `matplotlib.pyplot`: used in this repo to render `igraph` plots.
 
 ### data/
-synthetic_data.npz. Compressed Numpy file containing three arrays:
+`synthetic_data.npz`: compressed Numpy file containing three arrays:
 
-dates: (63, ) array of integers (not dates).  
-synth_sales_data: (12, 3970, 63) array of integer sales quantities.  
-fitted_line: (12, 3970, 63) array of doubles fitted through the sales quantities.  
-synthetic_data.csv.gz. Compressed csv file containing the same data as the .npz file but in long format.  
+- `dates`: (63, ) array of integers (not dates).  
+- `synth_sales_data`: (12, 3970, 63) array of integer sales quantities.  
+- `fitted_line`: (12, 3970, 63) array of doubles fitted through the sales quantities.
+ 
+`synthetic_data.csv.gz`: compressed csv file containing the same data as the .npz file but in long format.  
 
 ### src/
 
