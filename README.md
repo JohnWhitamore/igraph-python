@@ -1,9 +1,7 @@
 # igraph-python
 Clean examples of `igraph` code for building graphs with nodes and edges.  
 
-`igraph` is a package written in C that allows the creation of graphs. It works by handling state, rather than by passing messages (like Akka or Orleans). `igraph` was used to generate the synthetic retail data used as a running example through various of my repos.
-
-Uses synthetic retail sales data as a running example.
+`igraph` is a package written in C that allows the creation, management and plotting of graphs. It works by handling state, rather than by passing messages (like Akka or Orleans). `igraph` was used to generate the synthetic retail data used as a running example through various of my repos.
 
 - 12 stores  
 - 3970 products  
